@@ -22,7 +22,7 @@ export const TestimonialsData = [
       status: "DESARROLLADOR FRONT-END | TRADE.EC"
     },
     {
-        image : '/assets/jona.jpg',
+        image : '/assets/jonathan.jpg',
         review:'Gustavo no solo demuestra humildad en su forma de interactuar con los demás, sino que también la lleva a cabo en su trabajo. Siempre está dispuesto a aprender de los demás, a escuchar diferentes perspectivas y a reconocer sus propias áreas de mejora. Su actitud abierta y su disposición para colaborar lo hacen un compañero ejemplar en cualquier entorno laboral.',
         name: 'JONATHAN OCEGUEDA',
         linkedin: 'https://www.linkedin.com/in/jonathanocegueda/',
