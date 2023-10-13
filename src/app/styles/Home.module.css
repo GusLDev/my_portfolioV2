@@ -1,0 +1,126 @@
+
+.banner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.imgShadow{
+    position: absolute;
+    background: linear-gradient(45deg,#1E2326,transparent),linear-gradient(to bottom, #1E2326 6%, transparent);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    width: 600px; 
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    text-align: center; 
+    padding: 20px; 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    letter-spacing: 3px;
+}
+.hello{
+    color: white;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.presentation{
+    color: white;
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+}
+.nameSyle{
+    color: #1CB698;
+}
+.spech{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.btnDownload{
+    text-decoration: none;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    background: #1CB698;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.btnDownload:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width: 1100px) {
+    .info{
+        width: 450px; 
+        height: 350px;
+    }
+    .hello{
+        font-size: 40px;
+    }
+    .presentation{
+        color: white;
+        font-size: 40px;
+    }
+    .spech{
+        font-size: 14px;
+    }
+    .btnDownload{
+        width: 100px;
+        height: 25px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .info{
+        width: 320px; 
+        height: 350px;
+    }
+    .hello{
+        font-size: 30px;
+    }
+    .presentation{
+        font-size: 30px;
+    }
+    .spech{
+        font-size: 12px;
+    }
+    .btnDownload{
+        width: 100px;
+        height: 25px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .info{
+        width: 240px; 
+        height: 350px;
+    }
+    .hello{
+        font-size: 25px;
+    }
+    .presentation{
+        font-size: 25px;
+    }
+    .spech{
+        font-size: 10px;
+    }
+    .btnDownload{
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+    }
+}

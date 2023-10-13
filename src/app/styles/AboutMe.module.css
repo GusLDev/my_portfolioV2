@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #1E2326;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    gap: 20px;
+}
+
+.title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.title::after{
+    content: "";
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #1CB698;
+}
+.presentation{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.subInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.personalData{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+.subTitles{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+.infoDecoration{
+    color: #1CB698;
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cardsContainer{
+    display: flex;
+    gap: 15px;
+}
+.hobbieCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: #252A2E;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    gap: 10px;
+    transition: ease-in-out 0.3s;
+}
+.hobbieCard:hover{
+    background: #1CB698;
+}
+.hobbieIcon{
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width: 1100px) {
+    .title{
+        font-size: 30px;
+    }
+    .presentation{
+        font-size: 15px;
+    }
+    .subInfo{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .personalData{
+        text-align: center;
+    }
+    .subTitles{
+        font-size: 20px;
+    }
+    
+    .hobbies{
+        gap: 20px;
+    }
+    .cardsContainer{
+        justify-content: center;
+    }
+    .hobbieCard{
+        width: 80px;
+        height: 60px;
+        background: #252A2E;
+    }
+    .hobbieIcon{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .title{
+        font-size: 20px;
+    }
+    .presentation{
+        font-size: 14px;
+    }
+    .subTitles{
+        font-size: 16px;
+    }
+    .infoText{
+        font-size: 14px;
+    }
+    
+    .hobbieCard{
+        width: 65px;
+        height: 60px;
+        font-size: 12px;
+        background: #252A2E;
+    }
+    .hobbieIcon{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+@media screen and (max-width: 300px) {
+    .title{
+        font-size: 18px;
+    }
+    .presentation{
+        font-size: 14px;
+    }
+    .subTitles{
+        font-size: 16px;
+    }
+    .infoText{
+        font-size: 12px;
+    }
+    .hobbieCard{
+        width: 50px;
+        height: 60px;
+        background: #252A2E;
+        font-size: 10px;
+    }
+    .hobbieIcon{
+        width: 20px;
+        height: 20px;
+    }
+}
