@@ -15,7 +15,7 @@ const Skills = () => {
                 {
                     FrontEndSkills.map(skill => (
 
-                        <div className={styles.skillcard}>
+                        <div className={styles.skillcard} key={skill.nombre}>
                             <Image className={styles.image}
                                 src={skill.image}
                                 width={100}
@@ -34,7 +34,7 @@ const Skills = () => {
                 {
                     BackEndSkills.map(skill => (
 
-                        <div className={styles.skillcard}>
+                        <div className={styles.skillcard} key={skill.nombre}>
                             <Image className={styles.image}
                                 src={skill.image}
                                 width={100}
