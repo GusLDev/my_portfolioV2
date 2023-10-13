@@ -10,7 +10,7 @@ const Projects = () => {
         <Link href="https://www.naayaritours.com/" target='blank'>
           <figure className={styles.card}>
             <Image className={styles.workImage}
-              src="/assets/NaayariTours.png"
+              src="/assets/naayariTours.png"
               width={500}
               height={500}
               alt="Picture of the author"
